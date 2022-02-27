@@ -214,7 +214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -365,7 +365,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3895560699645556339, guid: a4713be2ba832834384046831d757af4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3895560699645556339, guid: a4713be2ba832834384046831d757af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -411,10 +411,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad
       objectReference: {fileID: 0}
-    - target: {fileID: 6614917061575132507, guid: a4713be2ba832834384046831d757af4, type: 3}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4713be2ba832834384046831d757af4, type: 3}
 --- !u!1001 &8190887605047541634
@@ -438,7 +434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732185951439478596, guid: 8b9265fc7c76ad248b18422708aa3c58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 7732185951439478596, guid: 8b9265fc7c76ad248b18422708aa3c58, type: 3}
       propertyPath: m_LocalPosition.z
@@ -486,10 +482,6 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8782141453724486323, guid: 759f1ceb9db46c544bbaa3e048afb7ff, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 7.2155075
-      objectReference: {fileID: 0}
-    - target: {fileID: 8782141453724486323, guid: 759f1ceb9db46c544bbaa3e048afb7ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5
       objectReference: {fileID: 0}
@@ -529,10 +521,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8782141453724486333, guid: 759f1ceb9db46c544bbaa3e048afb7ff, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6746fbb9ac93d5b4ea02315697d384ec, type: 2}
     - target: {fileID: 8782141453724486334, guid: 759f1ceb9db46c544bbaa3e048afb7ff, type: 3}
       propertyPath: m_Name
       value: Obstacle
