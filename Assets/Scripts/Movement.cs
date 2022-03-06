@@ -48,7 +48,6 @@ public class Movement : MonoBehaviour
         }else
         {
             audioSource.Stop();
-
         }
     }
     void ProcessRotation()
